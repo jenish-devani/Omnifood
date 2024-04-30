@@ -1,0 +1,66 @@
+/* 
+
+font
+555 333
+
+color 
+
+primary  e67e22
+tint  fdf2e9
+
+*/
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*----------Hero SECTION ------------*/
+.hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hero-container {
+  max-width: 118rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+.hero-container .heading {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+.hero-container .description {
+  font-size: 2rem;
+  margin-bottom: 4.6rem;
+}
+.hero-container .hero-img {
+  width: 100%;
+}
+.hero-container .btn:link,
+.hero-container .btn:visited {
+  display: inline-block;
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
