@@ -47,6 +47,13 @@ body {
   margin-bottom: 9.6rem;
 }
 
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
 .subheading {
   display: block;
   font-size: 1.6rem;
@@ -55,6 +62,10 @@ body {
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .container {
@@ -239,12 +250,6 @@ body {
   font-weight: 600;
   color: #ddd;
 }
-.section-how .heading-tertiary {
-  font-size: 3rem;
-  line-height: 1.2;
-  color: #333;
-  margin-bottom: 3.2rem;
-}
 .section-how .step-description {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -287,10 +292,16 @@ body {
   padding: 0 0 9.6rem 0;
 }
 
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
 }
 .meal .meal-content {
   padding: 2.8rem 3.2rem 3.2rem 3.2rem;
@@ -345,4 +356,41 @@ body {
 }
 .meal .meal-attributes .meal-attribute strong {
   font-weight: 500;
+}
+
+.diets .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.diets .list-item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.8rem;
+  gap: 1.6rem;
+}
+.diets .list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.all-recipes {
+  margin-top: 4.8rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.all-recipes .link:link,
+.all-recipes .link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.all-recipes .link:hover,
+.all-recipes .link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }/*# sourceMappingURL=index.css.map */
